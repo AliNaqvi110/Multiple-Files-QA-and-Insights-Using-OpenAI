@@ -17,9 +17,9 @@
 # Getting Started
  <p>To run FilesInsights on your local machine, follow these steps:</p>
 1. Clone the repository to your local machine.
-   
+
    ```
-    git clone https://github.com/AliNaqvi110/Multiple-Files-QA-and-Insights-Using-OpenAI.git
+   git clone https://github.com/AliNaqvi110/Multiple-Files-QA-and-Insights-Using-OpenAI.git
    ```
 
 
