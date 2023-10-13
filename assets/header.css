@@ -1,0 +1,137 @@
+#logo{
+    width: 100px;
+    height: auto;
+
+}
+#title{
+    width: 90%;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.header{
+    display: flex; /* Use flexbox to arrange items horizontally */
+    align-items: center; /* Vertically center items */
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+/* Styling for the side-by-side arrangement of tabs and file uploader */
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5px; /* Adjust the margin as needed */
+    
+}
+
+/* Styling for the file uploader */
+.file-uploader {
+    padding: 5px; /* Adjust padding as needed */
+    border: 1px solid #363434; /* Add border if desired */
+    background-color: #363434;;
+    color: #fff;
+    width: 300px;
+}
+
+/* Styling for the tabs */
+.tabs {
+    flex: 2; /* Tabs take up available space */
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #363434;
+    color: #fff;
+}
+/* Styling for the each tabs */
+.tab-header {
+    background-color: #b8aaaa; /* Change the background color to your desired color */
+    color: rgb(0, 0, 0);
+    
+}
+/* Styling for the button */
+.Br_button {
+    padding: 5px 25px; /* 10px top and bottom, 20px left and right */
+    float:right;
+    margin-right: 20px;
+}
+
+/* Styling for uploaded files */
+#uploaded-files {
+    margin-top: 10px; /* Add space between file uploader and uploaded files */
+    margin-bottom: 10px;
+}
+
+/* Styling for individual uploaded file names */
+#uploaded-files p {
+    margin: 5px 0; /* Add space between file names */
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+}
+/* stie input div */
+#question-input {
+    margin-top: 5px;
+    padding: 10px;
+    font-size:16px;
+    background-color: #363434;
+    color:#fff;
+
+}
+
+/* style vertical input */
+.text_Input {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.tab-content {
+    margin-top: 10px;
+    display: flex;
+
+}
+.output-container {
+    margin-top: 10px;
+}
+.bot-container,
+.user-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.question-output,
+.answer-output {
+    flex: 1;
+    text-align: justify;
+    padding-right: 20px;
+}
+.image {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin-right: 10px; 
+}
+.topper {
+    padding: 5px 30px;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    opacity: 0.6;
+    border: 1px solid black;
+}
+.topper-output {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.middle-output {
+    display:flex;
+    margin-top: 15px;
+    background-color: #000000;
+    border: 1px solid black;
+
+}
+.mid-graph1 {
+    width: 100%;
+    
+}
