@@ -5,7 +5,7 @@
 
 # Features
 <p>FilesInsights comes with the following features:</p>
-1. <b>File Upload:</b> Users can upload PDF and CSV files, and the system automatically detects the file type for further processing.<br>
+ 1. <b>File Upload:</b> Users can upload PDF and CSV files, and the system automatically detects the file type for further processing.<br>
 2. <b>Question and Answer: </b> The 'Question and Answer' tab allows users to input questions about the uploaded files. After submitting a question, the system processes it and provides an answer.<br>
 3. <b>Charts and Graphs:</b> Users can navigate to the 'Charts and Graphs' tab, which offers various pre-built charts for visualizing the data in the uploaded files.<br>
 4. <b>File Compatibility:</b> FilesInsights currently supports PDF and CSV file types. The application is designed to expand its capabilities to accommodate additional file formats in the future.<br>
